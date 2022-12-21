@@ -7,7 +7,7 @@ app.use(morgan('dev'));
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello 321',
+    message: 'Hello world!',
   });
 });
 
